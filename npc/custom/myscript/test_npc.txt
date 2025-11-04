@@ -1,0 +1,15 @@
+prontera,150,150,4 script Test NPC 100, {
+    mes "[Test NPC by Crimsonen]";
+    mes "Hello, adventurer";
+    mes "Would you like to recieve 1,000 Zeny?";
+    next;
+    if(select("Yes:No") == 1) {
+        Zeny += 1000;
+        mes "[Test NPC by Crimsonen]";
+        mes "You now have " + Zeny + " zeny!";
+    } else {
+        mes "[Test NPC by Crimsonen]";
+        mes "Maybe next time!";
+    }
+    close;
+}
