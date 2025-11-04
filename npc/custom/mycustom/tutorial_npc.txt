@@ -1,6 +1,6 @@
 prontera,155,155,4	script	Tutorial NPC	100,{
     mes "[Tutorial NPC]";
-		mes "Hello Adventurer, welcome to the LazyRO"
+		mes "Hello Adventurer, welcome to the LazyRO";
     next;
     close;
 }
