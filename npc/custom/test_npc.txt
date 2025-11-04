@@ -1,4 +1,4 @@
-prontera,150,150,4	script	WOE Information	835,{
+prontera,150,150,4	script	Ninong Crimson	100,{
     mes "[Test NPC by Crimsonen]";
 	mes "Hello, adventurer";
 	mes "Would you like to recieve 1,000 Zeny?";
