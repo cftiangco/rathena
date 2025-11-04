@@ -2,5 +2,23 @@ prontera,155,155,4	script	Tutorial NPC	100,{
     mes "[Tutorial NPC]";
 		mes "Hello Adventurer, welcome to the LazyRO";
     next;
+		
+		switch(select("Do you want some apple?:You want 10k Zenny?:Or warp to Payon?")) {
+			case 1:
+					getitem 512, 5;
+					mes "Here's 5 apples!";
+					break;
+			case 2:
+					Zeny += 10000;
+					mes	"Here's your 10k zeny!"
+					break;
+			case 3:
+					warp "payon",100,100;
+					end;
+			default:
+					mes "Okay, see you next time!"
+					break;
+		}
+		
     close;
 }
