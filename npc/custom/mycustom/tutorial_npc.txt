@@ -10,13 +10,13 @@ prontera,155,155,4	script	Tutorial NPC	100,{
 					break;
 			case 2:
 					Zeny += 10000;
-					mes	"Here's your 10k zeny!"
+					mes	"Here's your 10k zeny!";
 					break;
 			case 3:
 					warp "payon",100,100;
 					end;
 			default:
-					mes "Okay, see you next time!"
+					mes "Okay, see you next time!";
 					break;
 		}
 		
