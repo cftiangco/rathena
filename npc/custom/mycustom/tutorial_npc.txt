@@ -1,3 +1,5 @@
 prontera,155,155,4  script  Tutorial NPC    100,{
     mes "Tutorial NPC"
+    next;
+    close;
 }
