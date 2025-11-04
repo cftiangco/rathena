@@ -1,0 +1,14 @@
+prontera,160,160,4	script	Variable NPC	100,{
+	if(#got_reward) {
+		mes "You already claimed your reward!";
+		close;
+	}
+
+	mes "Do you want your one-time reward?";
+	if (select("Yes:No") == 1) {
+		getitem 7898, 1;
+		set #got_reward, 1;
+		mes "You've recieved your one-time reward";
+	}
+	close;
+}
