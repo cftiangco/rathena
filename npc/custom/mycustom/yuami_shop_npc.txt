@@ -1,3 +1,1 @@
 prontera,165,165,4	shop	Tool Dealer	100,501:50,502:200,503:500
-#prontera,165,165,4  shop    Yuami Shop  100,1161:10000,4147:5000,4A142:45A85
-#prontera,165,165,4	shop	Yuami_Shop	618,1161:10000,4147:5000,4142:458A5
