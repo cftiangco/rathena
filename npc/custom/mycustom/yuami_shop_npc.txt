@@ -1,1 +1,1 @@
-prontera,165,165,4	shop	Tool Dealer	100,501:50,502:200,503:500
+prontera,165,165,4	shop	Yuami_ToolDealer	100,501:50,502:200,503:500
